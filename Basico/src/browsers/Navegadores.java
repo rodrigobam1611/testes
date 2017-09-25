@@ -26,7 +26,7 @@ public class Navegadores {
 			"C:\\Desenvolvimento\\liferay-62-EE-Eclipse\\workspace\\Basico\\WebDrivers\\IEDriverServer.exe");
 	  
 	  driver = new FirefoxDriver();
-	  driver.manage().window().maximize();
+	  driver.manage().window().maximize();//E
 	  driver.get(url);
 	  
 	  return driver;
